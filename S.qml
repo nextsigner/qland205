@@ -48,7 +48,7 @@ Item {
     }
     Image {
         id: img1
-        source: "../../h/app_crash.png"
+        source: "../../../h/app_crash.png"
         width: r.width*0.3
         anchors.right: r.right
         anchors.verticalCenter: r.verticalCenter
@@ -94,10 +94,10 @@ Item {
             }else  if(app.lnl(104, 109)==='activo'){
                 txt2.text= 'import QtQuick <span style="color:red;">2.0</span>'
             }else  if(app.lnl(109, 137)==='activo'){
-                img1.source="../../h/app_crash.png"
+                img1.source="../../../h/app_crash.png"
             }else  if(app.lnl(137, 150)==='activo'){
                 txt2.text= 'import "carpetaJS/funciones.js" as JS'
-                img1.source="../../h/js.png"
+                img1.source="../../../h/js.png"
             }else{
                 txt2.text= 'import QtQuick 2.0'
             }
